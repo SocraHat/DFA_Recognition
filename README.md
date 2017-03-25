@@ -13,6 +13,8 @@ i use **Visual Studio 2017 Commity**,and the language is **C**.
 
 ## Example
 ### input dfa
+you can create a file using this type and those data.
+```c
 2 //the number of character 
 a b // character
 4 // number of state
@@ -24,20 +26,13 @@ a b // character
 3 2
 1 3
 3 3
-
+```
 ### check a string
 input a string using '#' as a end
-eg: aaaa#
-it will output : succeed! 
-means this dfa can accept this string.
+eg: `aaaa#` ,it will output : `succeed!`.It means this dfa can accept this string.
 
 ### show all accept
-input a number 'N'
-eg: 2
-it will output:
-aa
-bb
+input a number 'N',eg: `2`,it will output: aa , bb
 
 # Summary
-this is a easy program to recognize 'dfa' or a string.
-Thanks for advice to my email:**zpencheng@126.com**.
+this is a easy program to recognize 'dfa' or a string.Thanks for advice to my email:**zpencheng@126.com**.
